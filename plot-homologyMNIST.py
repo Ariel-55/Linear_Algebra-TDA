@@ -207,7 +207,3 @@ graph2 = buildGraph(raw_data=data, epsilon=1.5) #<------------change the value o
 ripsComplex2 = ripsFiltration(graph2, k=3) #k simplex
 drawComplex(origData=data, ripsComplex=ripsComplex2[0], axes=[-5,30,-5,25])
 print('----END------')
-
-# bm = filterBoundaryMatrix(ripsComplex2)
-# bm #Here is the (non-reduced) boundary matrix
-# z = reduceBoundaryMatrix(bm)
